@@ -9,9 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>let's build a airbnb clone🚴</h1>
-      <Home />
       <Header />
+      <Home />
     </div>
   );
 }
