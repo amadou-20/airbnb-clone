@@ -20,7 +20,7 @@ function Header() {
             /> 
 
             <div className="header_center">
-            <input type="text" />
+            <input type="text" type="search" />
                 <SearchIcon />
             </div>
 
