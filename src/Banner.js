@@ -17,7 +17,9 @@ const [showSearch, setshowSearch] = useState(false);
                setshowSearch(!showSearch)}
 
              className="banner_searchButton" 
-               variant="outlined">Search Dates
+               variant="outlined" >
+                 {showSearch ? "hide" :
+                 "Search Dates"}
              </Button>
            </div>
 

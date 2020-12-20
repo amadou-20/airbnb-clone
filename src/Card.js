@@ -1,11 +1,10 @@
 
-import React, {useState} from 'react';
+import React from 'react';
 import "./Card.css";
-import Card from "./Card";
 
 
-function Card({ src, title, description, price}) {
-
+function Card({ src, title, description, price
+}) {
 
     return (
         <div className="card">
